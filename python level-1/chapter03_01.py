@@ -14,10 +14,11 @@ dict : 사전
 """
 
 # 데이터 타입
+import math
 str1 = "Python"
 bool = True
 str2 = 'Anaconda'
-float_v = 10.0 # 10 != 10.0
+float_v = 10.0  # 10 != 10.0
 int_v = 7
 list = [str1, str2]
 dict = {"name": "Machine Learning", "version": 2.0}
@@ -101,21 +102,21 @@ print()
 print(float(b))
 print(int(c))
 print(int(d))
-print(int(True)) # True : 1, False : 0
+print(int(True))  # True : 1, False : 0
 print(float(False))
 print(complex(3))
-print(complex('3')) # 문자형 -> 숫자형
+print(complex('3'))  # 문자형 -> 숫자형
 print(complex(False))
 print()
 
 # 수치 연산 함수
-print(abs(-7)) # 절대값
-x, y = divmod(100, 8) # 100을 8로 나눈 몫을 x, 나머지를 y에
+print(abs(-7))  # 절대값
+x, y = divmod(100, 8)  # 100을 8로 나눈 몫을 x, 나머지를 y에
 print(x, y)
-print(pow(5, 3), 5 ** 3) # 5에 3승
+print(pow(5, 3), 5 ** 3)  # 5에 3승
 print()
 
 # 외부 모듈
-import math
 
+print(math.ceil(5.1))  # x 이상의 수 중에서 가장 작은 정수수
 print(math.pi)
